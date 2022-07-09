@@ -3,6 +3,10 @@
 
 
 # Protocol
+## New Features
+* Portals - governance-approved bridges can burn aTokens on one chain and mint them on another (allowing for flow of liquidity)
+* Efficiency Mode (eMode) - Higher loan-to-value (borrowing power) for assets correlated in price (e.g. stables, derivatives of same assets such as stEth and Eth)
+* Price Oracle Sentinel - Grace period for liquidations and disabling of borrowing, e.g. to handle down time of sequencer on L2
 
 ## Protocol Security
 * Chainlink Aggregators oracle for asset prices (e.g. for liquidation)
